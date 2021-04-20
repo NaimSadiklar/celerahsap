@@ -1,18 +1,13 @@
 import BoxItem from '../Components/home-box-item';
-// import { Splide, SplideSlide } from '@splidejs/react-splide';
-// import '@splidejs/splide/dist/css/themes/splide-default.min.css';
+import HomeSlider from '../Components/home-slider';
 
 function Home() {
 	return (
 		<div className='wrapper homepage'>
-			{/* <Splide>
-				<SplideSlide>
-					<img src='image1.jpg' alt='Image 1' />
-				</SplideSlide>
-				<SplideSlide>
-					<img src='image2.jpg' alt='Image 2' />
-				</SplideSlide>
-			</Splide> */}
+			<HomeSlider 
+			src='https://i0.wp.com/www.farklifarkli.com/wp-content/uploads/2019/05/ahsap_hediye_dukkani1.jpg'
+			style={{width:100}}
+			 />
 			<div className='homepage--wrapper'>
 				<div className='row__medium-4'>
 					<BoxItem
