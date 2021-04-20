@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "mutfaks",
+  "info": {
+    "name": "Mutfak"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Baslik": {
+      "type": "string"
+    },
+    "Icerik": {
+      "type": "richtext"
+    }
+  }
+}

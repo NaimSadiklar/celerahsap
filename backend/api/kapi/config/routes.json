@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kapi",
+      "handler": "kapi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kapi",
+      "handler": "kapi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kapi",
+      "handler": "kapi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "kapis",
+  "info": {
+    "name": "Kapi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Baslik": {
+      "type": "string"
+    },
+    "Icerik": {
+      "type": "richtext"
+    }
+  }
+}

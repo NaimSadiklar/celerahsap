@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cardak",
+      "handler": "cardak.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cardak",
+      "handler": "cardak.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cardak",
+      "handler": "cardak.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

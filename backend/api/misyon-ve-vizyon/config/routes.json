@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/misyon-ve-vizyon",
+      "handler": "misyon-ve-vizyon.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/misyon-ve-vizyon",
+      "handler": "misyon-ve-vizyon.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/misyon-ve-vizyon",
+      "handler": "misyon-ve-vizyon.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

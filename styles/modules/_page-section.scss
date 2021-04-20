@@ -1,5 +1,17 @@
 .page-section {
-  padding: 1.2rem 0;
+  padding: 1.2rem 2rem;
+
+  &__heading{
+    margin-bottom: 22px;
+    color: #3d281b;
+    font-size: 2.5em;
+    font-weight: normal;
+  }
+
+  &__text{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
 
   @mixin atMedium {
     padding: 4.5rem 0;
@@ -21,9 +33,9 @@
     }
   }
 
-  &--blue {
-    background-color: $mainBlue;
-    color: #FFF;
+  &--white {
+    background-color: #fcf2e2;
+    color: #ac9c86;
   }
 
   &--testimonials {

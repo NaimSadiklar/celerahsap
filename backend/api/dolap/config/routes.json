@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dolap",
+      "handler": "dolap.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dolap",
+      "handler": "dolap.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dolap",
+      "handler": "dolap.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

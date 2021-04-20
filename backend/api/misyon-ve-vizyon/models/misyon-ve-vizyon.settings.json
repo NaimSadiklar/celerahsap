@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "misyon_ve_vizyons",
+  "info": {
+    "name": "Misyon ve Vizyon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Baslik": {
+      "type": "string"
+    },
+    "Icerik": {
+      "type": "richtext"
+    }
+  }
+}

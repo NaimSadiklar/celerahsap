@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "hizmetlerimiz",
+  "info": {
+    "name": "Hizmetlerimiz",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Icerik": {
+      "type": "richtext"
+    },
+    "Baslik": {
+      "type": "string"
+    }
+  }
+}

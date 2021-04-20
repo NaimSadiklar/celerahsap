@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kalite-politikasi",
+      "handler": "kalite-politikasi.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kalite-politikasi",
+      "handler": "kalite-politikasi.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kalite-politikasi",
+      "handler": "kalite-politikasi.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

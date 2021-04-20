@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "hakkimizdas",
+  "info": {
+    "name": "Hakkımızda"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "Baslik": {
+      "type": "string"
+    },
+    "Icerik": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "kalite_politikasis",
+  "info": {
+    "name": "Kalite Politikasi"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Baslik": {
+      "type": "string"
+    },
+    "Icerik": {
+      "type": "richtext"
+    }
+  }
+}

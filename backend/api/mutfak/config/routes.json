@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mutfak",
+      "handler": "mutfak.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mutfak",
+      "handler": "mutfak.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mutfak",
+      "handler": "mutfak.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
