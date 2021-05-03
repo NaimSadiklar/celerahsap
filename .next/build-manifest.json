@@ -14,6 +14,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -24,15 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/hakkimizda": [
+    "/hizmetlerimiz": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/hakkimizda.js"
-    ],
-    "/hakkimizda/misyon-ve-vizyon": [
-      "static/chunks/main.js",
-      "static/chunks/webpack.js",
-      "static/chunks/pages/hakkimizda/misyon-ve-vizyon.js"
+      "static/chunks/pages/hizmetlerimiz.js"
     ]
   },
   "ampFirstPages": []

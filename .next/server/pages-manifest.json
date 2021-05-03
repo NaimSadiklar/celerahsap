@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/hakkimizda": "pages/hakkimizda.js",
-  "/hakkimizda/misyon-ve-vizyon": "pages/hakkimizda/misyon-ve-vizyon.js"
+  "/": "pages/index.js",
+  "/hizmetlerimiz": "pages/hizmetlerimiz.js"
 }
