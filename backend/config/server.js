@@ -1,9 +1,10 @@
-module.exports = ({ env }) => ({
-  host: env('HOST', 'localhost'),
-  port: env.int('PORT', 1337),
-  admin: {
-    auth: {
-      secret: env('ADMIN_JWT_SECRET', '3d1bf87a4ef8c700046b74491a895cce'),
-    },
-  },
+var express = require('express');
+var app = express();
+var path = require('path');
+
+
+app.use(express.static(__dirname + '/'));
+app.get('*', (req, res) =>{
+    res.sendFile(path.resolve(__dirname, './src/index.html'));
 });
+app.listen(process.env.PORT || 8080);
